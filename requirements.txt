@@ -6,3 +6,4 @@ faiss-cpu
 huggingface_hub
 langchain_groq
 langchain_community
+langchain_huggingface
