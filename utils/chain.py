@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # api_key = os.getenv('GPOQ_API_KEY')
-api_key = st.secrets('GROQ_API_KEY')
+api_key = st.secrets['GROQ_API_KEY']
 
 def get_chain(vectorstore):
     # llm = Ollama(model='gemma2:2b')
